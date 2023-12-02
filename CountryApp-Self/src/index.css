@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .map-btn {
+        @apply w-full xs:w-fit text-center block xs:inline mb-4 xs:mb-0  px-8 text-white font-medium py-3 rounded-md bg-cyan-500 shadow-md shadow-cyan-400/50 hover:shadow-none hover:bg-cyan-600 transition
+    }
+    .del-btn{
+        @apply w-full xs:w-fit text-center  px-4 text-white font-medium py-3 rounded-md bg-red-500 shadow shadow-red-400/50 hover:shadow-none hover:bg-red-600 transition
+    }
+    .flag{
+        @apply w-full border object-cover object-center lg:h-56  md:h-52 sm:h-64 
+    }
+    .card{
+        @apply w-full xl:h-[500px] md:h-[480px] border bottom-2 rounded-md overflow-hidden hover:scale-105 transition-all
+    }
+}

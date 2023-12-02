@@ -1,0 +1,44 @@
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: all ease 0.3s;
+}
+.card-img-top{
+    width: 100% !important;
+    height: 200px !important;
+    object-position: center;
+}
+h3{
+    font-size: 22px !important;
+    margin-top: 10px !important;
+    font-weight: 600 !important;
+}
+h4{
+    font-size: 21px !important;
+    font-weight: 600 !important;
+}
+h5{
+    font-size: 20px !important;
+}
+
+@media screen and (min-width:992px) {
+    .card{
+        height: 450px !important;
+    }
+    h3{
+        font-size: 28px !important;
+    }
+    h4{
+        font-size: 26px !important;
+    }
+    h5{
+        font-size: 24px !important;
+    }
+}
+@media screen and (min-width:480px) {
+    .card{
+        height: 490px !important;
+    }
+}
